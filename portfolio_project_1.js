@@ -42,9 +42,13 @@ for (let prop in quotesFromShows) {
       characterQuote.push(`${quotesFromShows[prop][optionIdx]} from Naruto`);
       break;
     case "fullMetalAlchemist":
-      characterQuote.push(`${quotesFromShows[prop][optionIdx]}`);
+      characterQuote.push(
+        `${quotesFromShows[prop][optionIdx]} from FullMetal Alchemist`
+      );
       break;
     default:
       characterQuote.push("See you later chump. -Spiderman(Black Suit)");
   }
 }
+
+console.log(characterQuote);
